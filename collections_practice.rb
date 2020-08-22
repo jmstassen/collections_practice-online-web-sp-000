@@ -44,7 +44,7 @@ end
 def find_a(array)
   solution = []
   array.each do |word|
-    if word.start_with("a")
+    if word.start_with?("a")
       solution << word
     else
     end
